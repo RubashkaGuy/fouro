@@ -49,6 +49,13 @@
 .application__template {
   width: 100%;
 }
+.application__background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 40vh;
+  z-index: -1;
+}
 
 .container {
   max-width: var(--container-width);
@@ -65,8 +72,8 @@
 .hdr {
   gap: 155px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .hdr__logo {
   position: relative;
@@ -106,4 +113,27 @@
   gap: 30px;
   font-size: 20px;
   font-weight: 400;
+}
+
+.hero {
+  display: flex;
+  margin-top: 40px;
+  gap: 180px;
+}
+.hero__logo {
+  display: flex;
+  gap: 120px;
+}
+.hero__logo-img {
+  height: 619px;
+}
+.hero__logo .txt__subtitle {
+  width: 608px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.hero__logo .txt__title {
+  height: 230px;
+  font-size: 120px;
+  font-weight: 600;
 }/*# sourceMappingURL=main-style.min.css.map */

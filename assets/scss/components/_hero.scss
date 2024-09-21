@@ -1,0 +1,27 @@
+.hero {
+    display: flex;
+    margin-top: 40px;
+    gap: 180px;
+    &__logo {
+        display: flex;
+        gap: 120px;
+        &-img {
+            height: 619px;
+        }
+        .txt {
+            &__subtitle {
+                width: 608px;
+                font-size: 30px;
+                font-weight: 400;
+                
+            }
+            &__title {
+                height: 230px;
+                font-size: 120px;
+                font-weight: 600;
+            }
+
+        }
+    }
+
+}
