@@ -1,1 +1,55 @@
 // header style
+
+.hdr {
+    gap: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__logo {
+        position: relative;
+        left: 80px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__links {
+        .items {
+            display: flex;
+            gap: 55px;
+            &__item {
+                font-size: 18px;
+                font-weight: 200;
+                &:hover {
+                    cursor: pointer;
+                    transition: ease-in-out 0.1s;
+                    color: var(--color-accent);
+                }
+            }
+        }
+    }
+    &__home {
+        .contact {
+            display: flex;
+            align-items: center;
+            gap: 65px;
+            &__item {
+                font-size: 20px;
+                font-weight: 600;
+                &-number {
+                    &:hover {
+                        transition: ease-in-out 0.1s;
+                        color: var(--color-accent);
+                    }
+                }
+            }
+        }
+    }
+    &__language {
+        .lang {
+            display: flex;
+            gap: 30px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}

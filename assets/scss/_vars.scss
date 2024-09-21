@@ -1,10 +1,14 @@
 // создаем переменные для scss
 $black: #000;
 $white: #fff;
+$accent: #B21414;
 // создаем переменные для css
 :root{
+
     --color-white: #{$white};
+    
     --color-black: #{$black};
+    --color-accent: #{$accent};
     --content-width: 1200px;
     --container-padding: 15px;
     --container-width: calc(var(--content-width) + (var(--container-padding) * 2));

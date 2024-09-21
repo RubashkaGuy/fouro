@@ -1,6 +1,7 @@
 :root {
   --color-white: #fff;
   --color-black: #000;
+  --color-accent: #B21414;
   --content-width: 1200px;
   --container-padding: 15px;
   --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
@@ -59,4 +60,50 @@
   .container {
     background-color: red;
   }
+}
+
+.hdr {
+  gap: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hdr__logo {
+  position: relative;
+  left: 80px;
+}
+.hdr__logo:hover {
+  cursor: pointer;
+}
+.hdr__links .items {
+  display: flex;
+  gap: 55px;
+}
+.hdr__links .items__item {
+  font-size: 18px;
+  font-weight: 200;
+}
+.hdr__links .items__item:hover {
+  cursor: pointer;
+  transition: ease-in-out 0.1s;
+  color: var(--color-accent);
+}
+.hdr__home .contact {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+.hdr__home .contact__item {
+  font-size: 20px;
+  font-weight: 600;
+}
+.hdr__home .contact__item-number:hover {
+  transition: ease-in-out 0.1s;
+  color: var(--color-accent);
+}
+.hdr__language .lang {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 400;
 }/*# sourceMappingURL=main-style.min.css.map */
